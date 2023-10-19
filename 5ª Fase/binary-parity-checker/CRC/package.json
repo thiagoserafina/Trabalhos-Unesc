@@ -1,0 +1,16 @@
+{
+  "name": "crc",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "bin": {
+    "my-app": "index.js"
+  },
+  "pkg": {
+    "scripts": "index.js",
+    "targets": [
+      "node12-win-x64"
+    ]
+  }
+}
