@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Derivação</title>
+  </head>
+  <body>
+    <main>
+      <section id="section">
+        <article class="article">
+          <span class="title">Derivação</span>
+          <div>
+            <input
+              type="text"
+              id="input"
+              placeholder="Digite aqui a sua sentença"
+            />
+            <button id="generateButton" onclick="buttonClick()">Gerar</button>
+          </div>
+          <span class="sentenca" id="sentencaInput"></span>
+          <div class="results" id="resultInput"></div>
+        </article>
+
+        <article class="article">
+          <span class="title">Exemplo 1</span>
+          <span class="sentenca" id="exemplo1">S=aSb|ab|~</span>
+          <div class="results" id="resultExemplo1"></div>
+        </article>
+
+        <article class="article">
+          <span class="title">Exemplo 2</span>
+          <span class="sentenca" id="exemplo2">S=aA|bB;A=aS;B=b|bC;C=bB</span>
+          <div class="results" id="resultExemplo2"></div>
+        </article>
+
+        <article class="article">
+          <span class="title">Exemplo 3</span>
+          <span class="sentenca" id="exemplo3">S=Ab;A=c|Bc;B=db</span>
+          <div class="results" id="resultExemplo3"></div>
+        </article>
+      </section>
+
+      <abbr title="Linguagens Formais - Daniel, Gilmar e Thiago">
+        <img src="favicon.png" alt="logo" id="bottom-logo" />
+      </abbr>
+    </main>
+  </body>
+  <script src="index.js"></script>
+</html>
