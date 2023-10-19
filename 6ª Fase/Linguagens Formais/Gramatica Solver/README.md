@@ -14,7 +14,9 @@ O GramaticaSolver é uma aplicação web que oferece uma interface simples e int
 ## Equipe
 
 Daniel Junkes
+</br>
 Gilmar Valentim
+</br>
 Thiago Serafina
 
 ## Como Usar
@@ -26,7 +28,9 @@ Thiago Serafina
 ## Tecnologias Utilizadas
 
 HTML5
+</br>
 CSS3
+</br>
 JavaScript
 
 ## Contribuição
