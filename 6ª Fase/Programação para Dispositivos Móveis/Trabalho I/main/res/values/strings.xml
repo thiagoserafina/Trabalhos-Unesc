@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">EasyTable</string>
+    <string name="signIn">Sign In</string>
+    <string name="logOut">Log Out</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="table1">1</string>
+    <string name="table2">2</string>
+    <string name="table3">3</string>
+    <string name="table4">4</string>
+    <string name="table5">5</string>
+    <string name="table6">6</string>
+    <string name="table7">7</string>
+    <string name="table8">8</string>
+    <string name="table9">9</string>
+    <string name="reservar">RESERVAR</string>
+    <string name="numeroMesa">Número Mesa</string>
+    <string name="liberar">Liberar Mesa</string>
+    <string name="salvarOperacao">Salvar Operação</string>
+    <string name="reservarTodas">Reservar todas as mesas</string>
+    <string name="configuracoes">Configurações</string>
+</resources>
