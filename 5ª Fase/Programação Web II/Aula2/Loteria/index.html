@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gerador de Mega-sena</title>
+  </head>
+  <body>
+    <h1>Gerador de Mega-sena</h1>
+    <form id="formularioBilhete">
+      <label for="numeros">Digite seus números (separados por vírgula):</label>
+      <input type="text" id="numeros" name="numeros" required />
+      <button type="submit">Comprar Ticket</button>
+    </form>
+    <h2>Tickets Comprados</h2>
+    <ul id="listaBilhetes"></ul>
+    <button id="botaoSorteio">Realizar Sorteio</button>
+    <h2 id="resultado"></h2>
+
+    <script src="script.js"></script>
+  </body>
+</html>

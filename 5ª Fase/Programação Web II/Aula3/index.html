@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dados dos Super-Heróis</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+      }
+      .section {
+        margin-bottom: 20px;
+      }
+      button {
+        margin: 5px 0;
+      }
+      .hero-list {
+        margin: 10px 0;
+      }
+      .hero-item {
+        margin-bottom: 10px;
+      }
+      h3 {
+        margin: 0;
+      }
+      span {
+        display: block;
+        margin: 5px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Dados dos Super-Heróis</h1>
+    <button onclick="showSection('alterEgos')">Mostrar Alter Egos</button>
+    <button onclick="showSection('totalFirstAppearanceLength')">
+      Mostrar Total do Tamanho das Primeiras Aparições (Marvel)
+    </button>
+    <button onclick="showSection('dcComicsCharacters')">
+      Mostrar Personagens da DC Comics
+    </button>
+    <button onclick="showSection('sortedByNameLength')">
+      Mostrar Ordenados por Comprimento do Nome
+    </button>
+
+    <div id="alterEgos" class="section" style="display: none">
+      <h2>Alter Egos</h2>
+      <div id="alterEgosOutput" class="hero-list"></div>
+    </div>
+
+    <div id="totalFirstAppearanceLength" class="section" style="display: none">
+      <h2>Total do Tamanho das Primeiras Aparições (Marvel)</h2>
+      <pre id="totalFirstAppearanceLengthOutput"></pre>
+    </div>
+
+    <div id="dcComicsCharacters" class="section" style="display: none">
+      <h2>Personagens da DC Comics</h2>
+      <pre id="dcComicsCharactersOutput"></pre>
+    </div>
+
+    <div id="sortedByNameLength" class="section" style="display: none">
+      <h2>Ordenados por Comprimento do Nome</h2>
+      <pre id="sortedByNameLengthOutput"></pre>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
